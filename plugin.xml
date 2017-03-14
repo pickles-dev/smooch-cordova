@@ -21,6 +21,10 @@
 
         <header-file src="src/ios/SmoochCordova.h" />
         <source-file src="src/ios/SmoochCordova.m" />
+        
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+            <string>Vous devez autoriser l'accès à votre Bibliothèque de Photos si vous voulez envoyer une image à notre support.</string>
+        </config-file>
 
         <framework src="Smooch" type="podspec" spec="~> 5.5.2"/>
 
