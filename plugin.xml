@@ -21,7 +21,7 @@
 
         <header-file src="src/ios/SmoochCordova.h" />
         <source-file src="src/ios/SmoochCordova.m" />
-        
+
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
             <string>Vous devez autoriser l'accès à votre Bibliothèque de Photos si vous voulez envoyer une image à notre support.</string>
         </config-file>
@@ -53,9 +53,9 @@
 
         <source-file src="src/android/colors.xml" target-dir="res/values" />
         <config-file target="res/values/colors.xml" parent="/resources">
-          <color name="Smooch_accent">#6ba539</color>
-          <color name="Smooch_accentDark">#457226</color>
-          <color name="Smooch_accentLight">#73D141</color>
+          <color name="Smooch_accent">#50BCBA</color>
+          <color name="Smooch_accentDark">#44918D</color>
+          <color name="Smooch_accentLight">#92F0E0</color>
           <color name="Smooch_backgroundInput">#ffffff</color>
           <color name="Smooch_btnSendHollow">#c0c0c0</color>
           <color name="Smooch_btnSendHollowBorder">#303030</color>
